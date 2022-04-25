@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: was
-        image: 940168446867.dkr.ecr.eu-west-2.amazonaws.com/langhae:latest
+        image: wayrkks/django:django-redis_v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
